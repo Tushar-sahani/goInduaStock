@@ -28,7 +28,7 @@ export default function Slider() {
         </div>
         <div className="w-full h-1 bg-gray-700 "></div>
         <div>
-          <ul className="text-xl text-white p-3">
+          <ul className="text-xl  text-white p-3">
             <li className="flex p-3 cursor-pointer">
               <BsChatRightText />
               <span className="pl-4">Discussion Fourm</span>

@@ -89,7 +89,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-screen md:hidden -ml-16">
-        <div className="flex justify-evenly bg-blue-900 text-2xl text-white">
+        <div className="flex justify-evenly bg-blue-900 text-2xl max-md:text-xl text-white">
           <buttoon onClick={()=>{setIsDiscussion(true)}} className=  {`w-full ml-3 p-2 ${isDiscussion?'border-r-4 border-b-4 border-red-950 bg-blue-950':''}`}>
             Discussion Forum
           </buttoon>
